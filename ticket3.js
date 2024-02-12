@@ -18,6 +18,6 @@ form.addEventListener("submit", (e) => {
 
     document.getElementById(
       "conversion"
-    ).textContent = `£${gbp} = $${conversion}`;
+    ).textContent = `£${gbp} = €${conversion}`;
   }
 });
