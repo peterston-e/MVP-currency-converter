@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket 3</title>
+  </head>
+  <body>
+    <h1 class="headline">Currency Converter</h1>
+    <h3>GBP to EUR/USD</h3>
+    <form id="forex-converter">
+      <label for="gbp">Great British Pound (GBP): £</label>
+      <input type="text" name="gbp" placeholder="Enter the amount" id="gbp" />
+      <br /><br />
+      <label for="forex">Select currency to convert to</label>
+      <select name="forex" id="fcurrency">
+        <option value="usd">United States Dollar (USD)</option>
+        <option value="eur">Euro (EUR)</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+
+    <hr />
+    <h3 id="conversion">£ = €/$</h3>
+
+    <script src="ticket3.js"></script>
+  </body>
+</html>
